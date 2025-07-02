@@ -30,14 +30,14 @@ on:
       armbian_kernel:
         description: "Select kernel version."
         required: false
-        default: "6.1.142"
+        default: "6.1.99"
         type: choice
         options:
           - 5.4.y
           - 5.10.y
           - 5.15.y
           - 6.1.y
-          - 6.1.142
+          - 6.1.99
           - 6.6.y
           - 6.12.y
           - 5.4.y_5.10.y
@@ -60,13 +60,14 @@ on:
       kernel_usage:
         description: "Set the tags of the stable kernel."
         required: false
-        default: "stable"
+        default: "rk35xx"
         type: choice
         options:
           - stable
           - flippy
           - dev
           - beta
+          - rk35xx
       armbian_fstype:
         description: "Select armbian rootfs type."
         required: false
