@@ -1,6 +1,6 @@
 verbosity=1
 bootlogo=false
-fdtfile=rockchip/rk3566-wxy-oec-turbo-4g.dtb
+fdtfile=rockchip/rk3566-onething-oec-box.dtb
 rootdev=/dev/mmcblk0p2
 rootfstype=ext4
 rootflags=rw,errors=remount-ro
